@@ -17,6 +17,7 @@
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/imageslider.css">
 
     <!-- favicons
     ================================================== -->
@@ -24,6 +25,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 </head>
 
@@ -517,67 +521,45 @@
         
                         <div class="swiper-container testimonial-slider" data-animate-el>
         
-                            <div class="swiper-wrapper">
-
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Tim Cook</strong>
-                                            <span>CEO, Apple</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias delectus culpa.
-                                    </p>
-                                </div> <!-- end testimonial-slider__slide -->
-                
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Sundar Pichai</strong>
-                                            <span>CEO, Google</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                                    Quasi voluptas eius distinctio. Atque eos maxime.
-                                    </p>
-                                </div> <!-- end testimonial-slider__slide -->
-                
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Satya Nadella</strong>
-                                            <span>CEO, Microsoft</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                                    Voluptatem dignissimos ut.
-                                    </p>
-                                </div> <!-- end testimonial-slider__slide -->
-        
-                                <div class="testimonial-slider__slide swiper-slide">
-                                    <div class="testimonial-slider__author">
-                                        <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                        <cite class="testimonial-slider__cite">
-                                            <strong>Jeff Bezos</strong>
-                                            <span>CEO, Amazon</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
-                                    quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
-                                    Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                                    </p>
-                                </div> <!-- end testimonial-slider__slide -->
+                            <div class="container swiper">
+                                <div class="card-wrapper">
+                                    <!-- Card slides container -->
+                                    <ul class="card-list swiper-wrapper">
+                                        <li class="card-item swiper-slide">
+                                            <a href="#" class="card-link">
+                                                <img src="images/slider1.png" alt="Card Image" class="card-image">
+                                                 <p class="card-title">
+                                                Sunil OG's Exclusive Interview | 22 FK | Picket 43 |
+                                                 OG's Kanthari | Cinemapranthan | cpX Talks</p>
+                                               
+                                            </a>
+                                        </li>
+                                        <li class="card-item swiper-slide">
+                                            <a href="#" class="card-link">
+                                                <img src="images/slider2.png" alt="Card Image" class="card-image">
+                                                <p class="card-title">Sunil OG's Exclusive Interview | 22 FK | Picket 43 |
+                                                     OG's Kanthari | Cinemapranthan | cpX Talks</p>
+                                                
+                                            </a>
+                                        </li>
+                                        <li class="card-item swiper-slide">
+                                            <a href="#" class="card-link">
+                                                <img src="images/slider3.png" alt="Card Image" class="card-image">
+                                                <p class="card-title">കണ്ടതും കേട്ടതും ഒന്നുമല്ല OG Sunil |
+                                                     കായലൊരത്തെ ഒജിയുടെ തറവാട്</p>
+                                               
+                                            </a>
+                                        </li>
+                                      
+                                    </ul>
+                            
+                                    <!-- Pagination -->
+                                    <div class="swiper-pagination"></div>
+                            
+                                    <!-- Navigation Buttons -->
+                                    
+                                </div>
+                            </div>
             
                             </div> <!-- end swiper-wrapper -->
         
@@ -602,9 +584,7 @@
                         </h2>
 
                         <p class="h1">
-                            I love to hear from you.
-                            Whether you have a question or just 
-                            want to chat about design, tech & art — shoot me a message.
+                            "Leading with purpose and determination"
                         </p>
                     </div>
                 </div> <!-- end contact-top -->
@@ -662,6 +642,8 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/imageslider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </body>
 </html>

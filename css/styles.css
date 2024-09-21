@@ -3215,8 +3215,9 @@ img.u-pull-left {
     z-index          : 1;
     list-style       : none;
     display          : flex;
-    font-size        : 1rem;
-    font-weight      : 400;
+    font-size        : 1.5rem;
+    /* font-weight      : 400; */
+    font-weight: 800;
     text-transform   : uppercase;
     letter-spacing   : .3em;
     margin           : 0;
